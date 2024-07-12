@@ -4,7 +4,7 @@ Visual Studio Code language support for [Tatam](https://crates.io/crates/tatam) 
 
 ## Install
 
-```console
+```shell
 cd ~/.vscode/extensions
 git clone https://github.com/DavidD12/tatam-lang.git
 ```
