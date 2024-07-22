@@ -64,14 +64,6 @@
 					}
 				},
 				{
-					"match": ":\\s*([a-zA-Z][a-zA-Z_0-9]*)",
-					"captures": {
-						"1": {
-							"name": "entity.name.type.tatam"
-						}
-					}
-				},
-				{
 					"match": "(init|inv|trans|trig)\\s+([a-zA-Z][a-zA-Z_0-9]*)",
 					"captures": {
 						"1": {
@@ -83,11 +75,7 @@
 					}
 				},
 				{
-					"name": "constant.numeric.tatam",
-					"match": "-?[0-9]+(.[0-9]*)?"
-				},
-				{
-					"match": "\\b(enum|interval|cst|var|let|init|inv|trans|trig|prop|search|solve|initial|sequence|truncated|infinite|finite|complete|maximize|minimize|until)\\b",
+					"match": "\\b(cst|var|let|prop|search|solve|initial|sequence|truncated|infinite|finite|complete|maximize|minimize|until)\\b",
 					"name": "keyword.other.tatam"
 				},
 				{
@@ -109,6 +97,10 @@
 				{
 					"name": "constant.numeric.tatam",
 					"match": "\\b(true|false)\\b"
+				},
+				{
+					"name": "constant.numeric.tatam",
+					"match": "-?[0-9]+(.[0-9]*)?"
 				},
 				{
 					"name": "variable.name.tatam",
