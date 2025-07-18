@@ -75,7 +75,7 @@
 					}
 				},
 				{
-					"match": "\\b(cst|var|let|prop|search|solve|initial|sequence|truncated|infinite|finite|complete|maximize|minimize|until)\\b",
+					"match": "\\b(cst|var|let|ltl|prop|search|solve|initial|sequence|truncated|infinite|finite|complete|maximize|minimize|until)\\b",
 					"name": "keyword.other.tatam"
 				},
 				{
